@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.components-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de);
+}
+
+header {
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    /* flex */
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover, header ul li a.active {
+    background: #fff;
+    color: #2b1055;
+}
+
+h2, p {
+    color: #fff;
+}
+
+section {
+    display: flex;
+    padding: 30px 50px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 50px;
+}
+
+.section-head {
+    width: 100%;
+    height: 50px;
+}
+
+.section-head input.subjectSearch{
+    position: relative;
+    left: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 250px;
+}
+
+.subjectOffered {
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.subjectOffered th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.subjectOffered th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.subjectOffered td, #subjectOffered th {
+    padding: 8px;
+}
+
+.subjectOffered tr {
+    background-color: #f2f2f2;
+}
+
+.subjectOffered tr:hover {
+    background-color: #ddd;
+}
+
+.subjectOffered th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.subjectOffered td {
+    font-size: 14px;
+    text-align: center;
+}
+
+.subjectOffered .del-btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 30px;
+    color: #fff;
+    background: #dc3545;
+    border-radius: 10px;
+    min-width: 40px;
+}
+
+.view-btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 30px;
+    color: #fff;
+    background: #17a2b8;
+    border-radius: 10px;
+    min-width: 40px;
+}
+
+.regis-btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 30px;
+    color: #fff;
+    background: #28a745;
+    border-radius: 10px;
+    min-width: 40px;
+}
+
